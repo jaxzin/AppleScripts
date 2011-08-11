@@ -1,0 +1,1 @@
+AppleScripts I've needed.
