@@ -64,7 +64,3 @@ tell application "Mail"
 		display alert "Posts Created" message "There were " & postsCreated & " posts created on Tumblr and " & postsFailed & " failures."
 	end if
 end tell
-
-on urlencode(TheTextToEncode)
-	return do shell script "/usr/bin/python -c 'import sys, urllib; print urllib.quote(sys.argv[1])' " & quoted form of TheTextToEncode
-end urlencode
